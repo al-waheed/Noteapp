@@ -52,7 +52,7 @@ function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <SlNote className="w-8 h-8 fill-current text-[#ff4d30]" />
+              <SlNote className="w-8 h-8 fill-current text-[#ff4d30]" /> 
             </Link>
           </div>
 
