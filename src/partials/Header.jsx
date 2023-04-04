@@ -87,7 +87,7 @@ function Header() {
             >
               <span className="sr-only">Menu</span>
               <svg
-                className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
+                className="w-6 h-6 fill-current text-[#ff4d30] hover:text-[#ff3a30] transition duration-150 ease-in-out"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -112,17 +112,9 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center"
+                    className="btn-sm text-white bg-[#ff4d30] hover:bg-[#ff644c] px-4 my-2 ont-medium w-full inline-flex items-center justify-center border border-transparent"
                   >
-                    Sign in
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/signup"
-                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                  >
-                    Sign up
+                    Sign in With Google
                   </Link>
                 </li>
               </ul>

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { UserAuth } from '../Context/AuthContext';
+import React, { useState } from "react";
+import { UserAuth } from "../Context/AuthContext";
 import { connect } from "react-redux";
 import { Modal } from "react-bootstrap";
 import { addItem, deleteItem } from "../redux/actions";
 import NoteItem from "./NoteItem";
-import NoteForm from "./NoteForm"
+import NoteForm from "./NoteForm";
 
 const Account = (props) => {
   const { logOut, user } = UserAuth();
@@ -14,10 +14,9 @@ const Account = (props) => {
 
   const handleInput = (e) => {
     this.setState({
-      [e.target.id]: e.target.activeItem
-    })
-  }
-
+      [e.target.id]: e.target.activeItem,
+    });
+  };
 
   const handleSignOut = async () => {
     try {
@@ -28,12 +27,12 @@ const Account = (props) => {
   };
 
   return (
-    <div className='w-[300px] m-auto'>
-      <h1 className='text-center text-2xl font-bold pt-12'>Account</h1>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <h1 className="text-center text-2xl font-bold pt-12">Account</h1>
       <div>
         <p>Welcome, {user?.displayName}</p>
       </div>
-      <button onClick={handleSignOut} className='border py-2 px-5 mt-10'>
+      <button onClick={handleSignOut} className="border py-2 px-5 mt-10">
         Logout
       </button>
       <div className="max-w-[1300px] mx-auto">
@@ -42,7 +41,10 @@ const Account = (props) => {
             <h1>Dear Diary...</h1>
             <NoteForm addItem={(item) => addItem(item)} />
           </div>
-          <div className="bg-white shadow-2xl w-[50%] m-4" style={{ paddingTop: 20 }}>
+          <div
+            className="bg-white shadow-2xl w-[50%] m-4"
+            style={{ paddingTop: 20 }}
+          >
             {diaryItems.length > 0 ? (
               diaryItems.map((item) => {
                 return (

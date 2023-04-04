@@ -19,7 +19,7 @@ function Footer() {
                   <SlNote className="w-8 h-8 fill-current text-[#ff4d30]"/>
                 </Link>
               </div>
-              <div className="text-[#706f7b]">We offers a digital platform for capturing and organizing notes and other important information. With a Note App, users can create and manage notes, to-do lists, and reminders, all in one place. </div>
+              <div className="text-[#706f7b]">We offers a digital platform for capturing and organizing notes and other important information. With Note App, users can create and manage notes, to-do lists, and reminders, all in one place. </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}

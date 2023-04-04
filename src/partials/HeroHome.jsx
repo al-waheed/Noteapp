@@ -44,14 +44,14 @@ function HeroHome() {
         </div>
 
         {/* Hero content */}
-        <div className="flex items-center relative pt-32 pb-10 md:pb-16">
+        <div className="flex items-center relative pt-28 pb-10 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-left pb-12 md:pb-16">
-          <h5 className="text-xl font-bold mb-4" data-aos="fade-up">
-             Simplify your life with our note app
+          <div className="max-w-3xl mx-auto text-left">
+            <h5 className="text-xl font-bold mb-4" data-aos="fade-up">
+              Simplify your life with our note app
             </h5>
             <h1 className="h1 mb-4" data-aos="fade-up">
-             Unleash your ideas, one <span className="text-[#ff4d30]">note</span> at a time
+              Unleash your ideas, one <span className="text-[#ff4d30]">note</span> at a time
             </h1>
             <p
               className="text-lg text-[#706f7b] mb-8"
@@ -64,7 +64,7 @@ function HeroHome() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex ">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-[#ff4d30] shadow-lg shadow-[#ff554c80] hover:bg-[#ff644c] w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Get Started 
+                  Get Started
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">

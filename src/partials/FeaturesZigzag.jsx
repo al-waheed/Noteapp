@@ -11,7 +11,7 @@ function FeaturesZigzag() {
         <div className="pb-12 md:pb-20 ">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center md:pb-16">
+          <div className="max-w-3xl  mx-auto text-center mt-6">
             <h1 className="h2 mb-4 text-black">Why Choose Us</h1>
             <p className="text-xl text-black">Best valued deals you will ever find</p>
           </div>
@@ -27,9 +27,9 @@ function FeaturesZigzag() {
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div className="md:pr-4 lg:pr-12">
                   <h3 className="h3 mb-3">Web Clipper</h3>
-                  <p className="text-xl text-[#706f7b] mb-4">This feature allows users to save articles, images, and other content from websites directly into their Note website, making it easier to keep track of information and references.</p>
+                  <p className="text-xl text-[#706f7b]">This feature allows users to save articles, images, and other content from websites directly into their Note website, making it easier to keep track of information and references.</p>
                 </div>
               </div>
             </div>
@@ -42,9 +42,9 @@ function FeaturesZigzag() {
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                <div className="md:pl-4 lg:pl-12 ">
                   <h3 className="h3 mb-3">Task Management</h3>
-                  <p className="text-xl text-[#706f7b] mb-4">Note app can integrate task management features, allowing users to create to-do lists, set reminders, and track their progress toward completing tasks.</p>
+                  <p className="text-xl text-[#706f7b]">Note app can integrate task management features, allowing users to create to-do lists, set reminders, and track their progress toward completing tasks.</p>
                 </div>
               </div>
             </div>
@@ -57,9 +57,9 @@ function FeaturesZigzag() {
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div className="md:pr-4 lg:pr-12">
                   <h3 className="h3 mb-3">Syncing and Backup</h3>
-                  <p className="text-xl text-[#706f7b] mb-4">Note app can automatically sync and backup notes across devices, ensuring that users can access their notes from anywhere and never lose their important information.</p>
+                  <p className="text-xl text-[#706f7b]">Note app can automatically sync and backup notes across devices, ensuring that users can access their notes from anywhere and never lose their important information.</p>
                 </div>
               </div>
             </div>
