@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { UserAuth } from "../Context/AuthContext";
+import { UserAuth } from "../context/AuthContext";
 import { connect } from "react-redux";
 import { Modal } from "react-bootstrap";
 import { addItem, deleteItem } from "../redux/actions";

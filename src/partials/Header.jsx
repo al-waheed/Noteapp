@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { SlNote } from "react-icons/sl";
-import { UserAuth } from "../Context/AuthContext";
+import { UserAuth } from "../context/AuthContext";
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);

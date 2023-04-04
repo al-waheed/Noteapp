@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { UserAuth } from '../Context/AuthContext';
+import { UserAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
