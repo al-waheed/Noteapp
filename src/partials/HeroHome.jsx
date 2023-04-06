@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import HeroImage from "../images/hero-image-01.png";
 
@@ -63,8 +64,12 @@ function HeroHome() {
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex ">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-[#ff4d30] shadow-lg shadow-[#ff554c80] hover:bg-[#ff644c] w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Get Started
+                <a className="btn text-white bg-[#ff4d30] shadow-lg shadow-[#ff554c80] hover:bg-[#ff644c] w-full mb-4 sm:w-auto sm:mb-0">
+                  <Link
+                    to="/signin"
+                  >
+                    Get Started
+                  </Link>
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
