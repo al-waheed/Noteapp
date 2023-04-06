@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { UserAuth } from '../context/AuthContext';
+import { UserAuth } from "../context/AuthContext";
+import { GoogleButton } from 'react-google-button';
 import { useNavigate } from 'react-router-dom';
 import Header from '../partials/Header';
 import PageIllustration from '../partials/PageIllustration';
@@ -58,6 +59,10 @@ const SignIn = () => {
                         <span className="h-6 flex items-center border-r border-white border-opacity-25 mr-4" aria-hidden="true"></span>
                         <span className="flex-auto pl-16 pr-8 -ml-16" onClick={handleGoogleSignIn} >Sign in With Google</span>
                       </button>
+
+                      <div className="max-w-[240px] py-4 m-auto" onClick={handleGoogleSignIn} >
+                        <GoogleButton/> 
+                        </div>
                     </div>
                   </div>
                 </form>

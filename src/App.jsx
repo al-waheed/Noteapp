@@ -10,7 +10,7 @@ import './css/style.css';
 
 import AOS from 'aos';
 import SignIn from './pages/SignIn';
-import Protected from "./utils/Protected";
+import Protected from "./pages/Protected";
 import { AuthContextProvider } from "./context/AuthContext";
 import Account from "./pages/Account";
 import Home from "./pages/Home";

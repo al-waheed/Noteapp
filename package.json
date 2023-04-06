@@ -20,6 +20,7 @@
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
     "react-router-dom": "^6.8.1",
+    "react-google-button": "^0.7.2",
     "react-transition-group": "^4.4.5",
     "web-vitals": "^2.1.0"
   },

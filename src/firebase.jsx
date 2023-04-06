@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD8mpseDH1kxX1cULgUE2Pyw74pDR0EVp4",
-  authDomain: "diary-login-65923.firebaseapp.com",
-  projectId: "diary-login-65923",
-  storageBucket: "diary-login-65923.appspot.com",
-  messagingSenderId: "1078994048755",
-  appId: "1:1078994048755:web:24c58cfaac3dac15f9c986"
+  apiKey: "AIzaSyC_esHWuUKbbipW_rBh7RCD_EsjEEiTKRU",
+  authDomain: "note-app-7e576.firebaseapp.com",
+  projectId: "note-app-7e576",
+  storageBucket: "note-app-7e576.appspot.com",
+  messagingSenderId: "331267997644",
+  appId: "1:331267997644:web:c23d02e04777c3e352e769"
 };
 
 // Initialize Firebase
