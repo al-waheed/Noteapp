@@ -5,6 +5,7 @@ import { Modal } from "react-bootstrap";
 import { addItem, deleteItem } from "../redux/actions";
 import NoteItem from "./NoteItem";
 import NoteForm from "./NoteForm";
+import SecondHeader from "./SecondHeader";
 
 const Account = (props) => {
   const { logOut, user } = UserAuth();
@@ -27,22 +28,20 @@ const Account = (props) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6">
-      <h1 className="text-center text-2xl font-bold pt-12">Account</h1>
-      <div>
-        <p>Welcome, {user?.displayName}</p>
+    <>
+      <div className="py-3">
+        <SecondHeader />
       </div>
-      <button onClick={handleSignOut} className="border py-2 px-5 mt-10">
-        Logout
-      </button>
-      <div className="max-w-[1300px] mx-auto">
-        <div className=" flex justify-center items-center ">
-          <div className="bg-white shadow-2xl w-[50%] m-4">
-            <h1>Dear Diary...</h1>
+      {/* <h1 className="text-center text-2xl font-bold pt-12">Account</h1> */}
+
+      <div className="max-w-7xl mx-auto pt-20">
+        <div className="flex justify-center items-center ">
+          <div className="bg-white shadow-2xl w-[50%] m-4 p-3">
+            <h1 className="text-center text-2xl font-bold ">Dear Diary...</h1>
             <NoteForm addItem={(item) => addItem(item)} />
           </div>
           <div
-            className="bg-white shadow-2xl w-[50%] m-4"
+            className="bg-white shadow-2xl w-[50%] m-4 p-3"
             style={{ paddingTop: 20 }}
           >
             {diaryItems.length > 0 ? (
@@ -78,7 +77,7 @@ const Account = (props) => {
           <Modal.Footer>{activeItem?.date}</Modal.Footer>
         </Modal>
       </div>
-    </div>
+    </>
   );
 };
 
